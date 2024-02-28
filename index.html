@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -24,8 +25,10 @@
         <div class="container">
           <div class="home__inner">
             <div class="title__block">
-              <div class="title">
-                <h1>Artisa - это агрегатор для творческих услуг. </h1>
+              <div class="title__wrapper">
+                <h1 class="title">
+                  Artisa - это агрегатор для творческих услуг. 
+                </h1>
                 <p>
                   Наше приложение включает в себя умную систему поиска, которая
                   поможет подобрать вам артиста вашей мечты или самим
@@ -489,7 +492,171 @@
           </div>
         </div>
       </section>
+      <section class="offer">
+        <div class="container">
+          <div class="offer__inner">
+            <h2 class="title">У нас есть то, что вам нужно</h2>
+            <div class="offer__section">
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Аниматор.png" alt="Аниматор" />
+                </div>
+                <p class="name">Аниматор</p>
+              </div>
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Видеограф.png" alt="Видеограф" />
+                </div>
+                <p class="name">Видеограф</p>
+              </div>
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Музыканты.png" alt="Музыканты" />
+                </div>
+                <p class="name">Музыканты</p>
+              </div>
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Ведущий.png" alt="Ведущий" />
+                </div>
+                <p class="name">Ведущий</p>
+              </div>
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Скульптор.png" alt="Скульптор" />
+                </div>
+                <p class="name">Скульптор</p>
+              </div>
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Декоратор.png" alt="Декоратор" />
+                </div>
+                <p class="name">Декоратор</p>
+              </div>
+              <div class="offer__item">
+                <div class="offer__img">
+                  <img src="./images/Копирайтер.png" alt="Копирайтер" />
+                </div>
+                <p class="name">Копирайтер</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="img__wrapper-offer">
+          <img src="./images/mona-lisa.png" alt="mona-lisa" />
+        </div>
+      </section>
+
+      <section class="swiper reviews">
+        <div class="swiper-wrapper reviews__section">
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <p>
+                Когда я связался с командой сайта, мне быстро и профессионально
+                оказали помощь. Сотрудники были вежливы и готовы ответить на все
+                мои вопросы. 
+              </p>
+              <div class="reviews__item-img">
+                <div class="circle orange"></div>
+                <img src="./images/image 1.png" alt="avatar" />
+                <span>Екатерина</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <p>
+                Я получил отличное обслуживание, качественные услуги и хорошую
+                цену. Я рекомендую этот сайт всем, кто ищет надежного партнера
+                для выполнения своих задач.
+              </p>
+              <div class="reviews__item-img">
+                <div class="circle green"></div>
+                <img src="./images//image 2.png" alt="avatar" />
+                <span>Даниил</span>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__item">
+              <p>
+                Когда я наконец решила воспользоваться услугами сайта, я была
+                приятно удивлена качеством обслуживания. Работа была выполнена
+                вовремя и в соответствии с моими ожиданиями
+              </p>
+              <div class="reviews__item-img">
+                <div class="circle orange"></div>
+                <img src="./images/image 3.png" alt="avatar" />
+                <span>Мария</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <!-- <section class="reviews">
+        <div class="container">
+          <div class="reviews__inner">
+            <h2 class="title">Отзывы</h2>
+
+            <div class="reviews__section">
+              <div class="reviews__item">
+                <p>
+                  Когда я связался с командой сайта, мне быстро и
+                  профессионально оказали помощь. Сотрудники были вежливы и
+                  готовы ответить на все мои вопросы. 
+                </p>
+                <div class="reviews__item-img">
+                  <div class="circle orange"></div>
+                  <img src="./images/image 1.png" alt="avatar" />
+                  <span>Екатерина</span>
+                </div>
+              </div>
+
+              <div class="reviews__item">
+                <p>
+                  Я получил отличное обслуживание, качественные услуги и хорошую
+                  цену. Я рекомендую этот сайт всем, кто ищет надежного партнера
+                  для выполнения своих задач.
+                </p>
+                <div class="reviews__item-img">
+                  <div class="circle green"></div>
+                  <img src="./images//image 2.png" alt="avatar" />
+                  <span>Даниил</span>
+                </div>
+              </div>
+
+              <div class="reviews__item">
+                <p>
+                  Когда я наконец решила воспользоваться услугами сайта, я была
+                  приятно удивлена качеством обслуживания. Работа была выполнена
+                  вовремя и в соответствии с моими ожиданиями
+                </p>
+                <div class="reviews__item-img">
+                  <div class="circle orange"></div>
+                  <img src="./images/image 3.png" alt="avatar" />
+                  <span>Мария</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section> -->
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <h2 class="title">
+            Полный функционал Artisa уже доступен на мобильных устройствах
+          </h2>
+          <button class="login__btn btn__bg">Войти</button>
+        </div>
+      </div>
+      <div class="img__wrapper-footer">
+        <img src="./images/footer-img.png" alt="footer-img" />
+      </div>
+    </footer>
     <div id="modal" class="modal hide">
       <div class="modal__content">
         <h1>Hello World!</h1>
@@ -497,6 +664,8 @@
       </div>
     </div>
 
+    
+    <script src="js/swiper.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
