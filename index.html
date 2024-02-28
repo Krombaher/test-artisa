@@ -14,7 +14,9 @@
       <div class="container">
         <div class="header__inner">
           <div class="logo__item">
-            <a href="#" class="logo">LOGO</a>
+            <a href="#" class="logo">
+              <img src="./images/artisa-logo.png" alt="artisa-logo" />
+            </a>
           </div>
           <button class="login__btn btn__bg">Войти</button>
         </div>
@@ -88,6 +90,7 @@
         </div>
         <div class="image_wrapper">
           <img src="./images/bgImg.png" alt="img" />
+          <div class="light"></div>
         </div>
       </section>
       <section class="services">
@@ -547,53 +550,59 @@
         </div>
       </section>
 
-      <section class="swiper reviews">
-        <div class="swiper-wrapper reviews__section">
-          <div class="swiper-slide">
-            <div class="reviews__item">
-              <p>
-                Когда я связался с командой сайта, мне быстро и профессионально
-                оказали помощь. Сотрудники были вежливы и готовы ответить на все
-                мои вопросы. 
-              </p>
-              <div class="reviews__item-img">
-                <div class="circle orange"></div>
-                <img src="./images/image 1.png" alt="avatar" />
-                <span>Екатерина</span>
+      <section class="reviews">
+        <div class="container">
+          <h2 class="title reviews__title">Отзывы</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper reviews__section">
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <p>
+                    Когда я связался с командой сайта, мне быстро и
+                    профессионально оказали помощь. Сотрудники были вежливы и
+                    готовы ответить на все мои вопросы. 
+                  </p>
+                  <div class="reviews__item-img">
+                    <div class="circle orange"></div>
+                    <img src="./images/image 1.png" alt="avatar" />
+                    <span>Екатерина</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <p>
+                    Я получил отличное обслуживание, качественные услуги и
+                    хорошую цену. Я рекомендую этот сайт всем, кто ищет
+                    надежного партнера для выполнения своих задач.
+                  </p>
+                  <div class="reviews__item-img">
+                    <div class="circle green"></div>
+                    <img src="./images//image 2.png" alt="avatar" />
+                    <span>Даниил</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__item">
+                  <p>
+                    Когда я наконец решила воспользоваться услугами сайта, я
+                    была приятно удивлена качеством обслуживания. Работа была
+                    выполнена вовремя и в соответствии с моими ожиданиями
+                  </p>
+                  <div class="reviews__item-img">
+                    <div class="circle orange"></div>
+                    <img src="./images/image 3.png" alt="avatar" />
+                    <span>Мария</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="reviews__item">
-              <p>
-                Я получил отличное обслуживание, качественные услуги и хорошую
-                цену. Я рекомендую этот сайт всем, кто ищет надежного партнера
-                для выполнения своих задач.
-              </p>
-              <div class="reviews__item-img">
-                <div class="circle green"></div>
-                <img src="./images//image 2.png" alt="avatar" />
-                <span>Даниил</span>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="reviews__item">
-              <p>
-                Когда я наконец решила воспользоваться услугами сайта, я была
-                приятно удивлена качеством обслуживания. Работа была выполнена
-                вовремя и в соответствии с моими ожиданиями
-              </p>
-              <div class="reviews__item-img">
-                <div class="circle orange"></div>
-                <img src="./images/image 3.png" alt="avatar" />
-                <span>Мария</span>
-              </div>
-            </div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
       </section>
+
       <!-- <section class="reviews">
         <div class="container">
           <div class="reviews__inner">
@@ -664,7 +673,6 @@
       </div>
     </div>
 
-    
     <script src="js/swiper.js"></script>
     <script src="js/main.js"></script>
   </body>
